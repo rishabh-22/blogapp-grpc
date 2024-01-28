@@ -28,7 +28,7 @@ message Response {
   string Content = 3;
   string Author = 4;
   string PublicationDate = 5;
-  string Tags = 6;
+  string Tags = 6;  // preferred to use []string, used string to keep things simple
 }
 
 message Message {
